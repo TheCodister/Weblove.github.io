@@ -38,20 +38,22 @@ body {
   padding: 30px 15px;
 }
 .heart-like-button {
-  left: 117ex;
   position: relative;
+  align-items: center ;
+  left: 104ex;
+  top: 10px;
   width: 160px;
   height: 130px;
 }
 .heart-like-button:before {
   position: absolute;
   top: 0;
-  left: 160px;
+  left: 240px;
   transform: rotate(-45deg);
   transform-origin: 0 100%;
-  width: 160px;
-  height: 250px;
-  border-radius: 80px 80px 0 0;
+  width: 240px;
+  height: 375px;
+  border-radius: 120px 120px 0 0;
   background-color: #757473;
   content: "";
   cursor: pointer;
@@ -63,9 +65,9 @@ body {
   left: 0;
   transform: rotate(45deg);
   transform-origin :100% 100%;
-  width: 160px;
-  height: 250px;
-  border-radius: 80px 80px 0 0;
+  width: 240px;
+  height: 375px;
+  border-radius: 120px 120px 0 0;
   background-color: #727271;
   content: "";
   cursor: pointer;
