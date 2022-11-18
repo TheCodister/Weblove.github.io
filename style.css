@@ -38,9 +38,11 @@ body {
   padding: 30px 15px;
 }
 .heart-like-button {
+  padding: 5px;
   position: relative;
-  align-items: center ;
-  left: 104ex;
+  display: block;
+  margin-left: 37%;
+  margin-right: 50%;
   top: 10px;
   width: 160px;
   height: 130px;
