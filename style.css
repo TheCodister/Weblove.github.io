@@ -18,15 +18,24 @@ body {
     background-color: rgb(159, 236, 255);
     border-radius: 10ex;
     padding-top: 1ex;
-    padding-bottom: 5ex;
     text-rendering: geometricPrecision;
     color:black;
 }
 .header{
+    position: relative;
     font-size: larger;
     line-height: 10ex;
+    background-color: #fe7199;
+    color: rgb(255, 255, 255);
+    background-size: 300px 150px;
+    text-align: center;
+    border-radius: 10ex;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .threat{
+    line-height: 10ex;
     font-size:large;
 }
 #container {
@@ -39,7 +48,9 @@ body {
   padding: 10px 15px;
 }
 .heart-comment{
+  position: relative;
   text-align: center;
+  bottom: 40px;
 }
 .counter{
   font-weight: bold;
@@ -94,7 +105,6 @@ body {
 }
 h1 {
   margin: 0;
-  color: #000000;
   font-size: 4rem;
   letter-spacing: 1px;
   text-align: center;
@@ -133,6 +143,7 @@ h1 {
 .end{
     background-color: white;
     text-align: center;
+    padding: 10px;
 }
 h2{
   font-size: 2.5rem;
