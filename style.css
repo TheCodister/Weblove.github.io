@@ -14,9 +14,14 @@ body {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 #title{
+    position: relative;
+    top: 15px;
     text-align: center;
     background-color: rgb(159, 236, 255);
     border-radius: 10ex;
+    border: #f6fbff;
+    border-width: 10px;
+    border-style: solid;
     padding-top: 1ex;
     text-rendering: geometricPrecision;
     color:black;
@@ -36,7 +41,7 @@ body {
 }
 .threat{
     line-height: 10ex;
-    font-size:large;
+    font-size:larger;
 }
 #container {
   display: flex;
@@ -50,7 +55,7 @@ body {
 .heart-comment{
   position: relative;
   text-align: center;
-  bottom: 40px;
+  bottom: 50px;
 }
 .counter{
   font-weight: bold;
