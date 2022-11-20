@@ -57,14 +57,35 @@ body {
   text-align: center;
   bottom: 50px;
 }
+.buttonarea{
+  position: relative;
+  bottom: 120px;
+  font-size: 2rem;
+  align-content: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+button{
+  position:relative;
+  font-weight: bold;
+  z-index: 1;
+  background-color: #fe7199;
+  border: 1px;
+  border-radius: 2ex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
 .counter{
   font-weight: bold;
   position: relative;
   font-size: 7rem;
-  z-index: 2;
+  z-index: 1;
   margin-right: auto;
   margin-left: auto;
-  left: 11pt;
+  left: 2pt;
   bottom: 50pt;
 }
 .heart-like-button{
@@ -74,7 +95,7 @@ body {
   margin-left: auto;
   text-align:unset;
   margin-right: auto;
-  right: 90pt;
+  right: 99pt;
   width: 160pt;
   height: 130pt;
 }
@@ -88,7 +109,7 @@ body {
   width: 240px;
   height: 375px;
   border-radius: 120px 120px 0 0;
-  background-color: #757473;
+  background-color: #f3a7bd;
   content: "";
   cursor:pointer;
   transition: background .4s;
@@ -103,7 +124,7 @@ body {
   width: 240px;
   height: 375px;
   border-radius: 120px 120px 0 0;
-  background-color: #727271;
+  background-color: #f3a7bd;
   content: "";
   cursor: pointer;
   transition: background .4s;
