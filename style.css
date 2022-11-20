@@ -77,6 +77,7 @@ button{
   padding-bottom: 20px;
   padding-left: 60px;
   padding-right: 60px;
+  cursor: pointer;
 }
 .counter{
   font-weight: bold;
